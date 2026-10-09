@@ -1,0 +1,22 @@
+{
+  "name": "@fdeitelhoff/ix-trusted-publishing-demo-npm",
+  "version": "0.1.0",
+  "description": "Kleine Demo für npm Trusted Publishing und Provenance",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdeitelhoff/ix-trusted-publishing-demo-npm.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT"
+}
