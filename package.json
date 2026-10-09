@@ -1,6 +1,6 @@
 {
   "name": "@fdeitelhoff/ix-trusted-publishing-demo-npm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Kleine Demo für npm Trusted Publishing und Provenance",
   "type": "module",
   "exports": "./src/index.js",
